@@ -1,4 +1,4 @@
-def decisão(conta):
+def decisão():
 
     dec1 = input("Vc deseja fazer uma conta?\n").lower()
     if dec1 in ("sim","s"):
@@ -15,4 +15,4 @@ def decisão(conta):
     else:
         print("Ok então...")
 
-print(decisão(conta=0))
+decisão()
